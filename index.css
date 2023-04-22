@@ -13,7 +13,7 @@ body {
 }
 
 .main-nav {
-    height: 100px;
+    height: 15vh;
     display: flex;
     justify-content: space-between;
 }
@@ -28,4 +28,16 @@ body {
 #logo {
     height: 100%;
     margin-left: 15px;
+}
+
+.nav-item a {
+    text-decoration: none;
+}
+
+.nav-item a:hover {
+    text-decoration: underline;
+}
+
+#active {
+    text-decoration: underline;
 }

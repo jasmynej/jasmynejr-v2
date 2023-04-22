@@ -1,0 +1,30 @@
+body {
+    height: 100%;
+}
+.contact-container {
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#contacts {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-option img {
+    width: 100px;
+}
+
+.contact-option {
+    margin: 10px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-option a {
+    font-size: 20px;
+}
